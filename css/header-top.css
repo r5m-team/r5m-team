@@ -1,0 +1,34 @@
+.header-top {
+  padding: 20px 0;
+}
+
+.header-top__logo {
+  float: left;
+}
+
+.header-top__call-me,
+.header-top__order {
+  float: right;
+}
+
+.header-top__call-me {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.header-top__logo__link {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header-top__logo__link__title {
+  text-transform: uppercase;
+}
+
+.header-top__logo__link__subtitle {
+  position: relative;
+  top: 1.9rem;
+  vertical-align: top;
+  font-size: 0.5em;
+}
