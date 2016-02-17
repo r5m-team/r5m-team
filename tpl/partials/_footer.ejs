@@ -4,13 +4,14 @@
     <div class="flexible-container">
 
       <div class="copyleft">
-        <p class="copyright__contact">Милихина Юлия</p>
-        <p class="copyright__contact">+7 904 968 1827</p>
-        <p class="copyright__contact">milihinajp@gmail.com</p>
-        <p class="copyright__contact">г. Новокузнецк</p>
+        <p class="copyright__contact"><%= info.copyright %></p>
+        <p class="copyright__contact"><%= info.phone %></p>
+        <p class="copyright__contact"><%= info.email %></p>
+        <p class="copyright__contact"><%= info.city %></p>
       </div>
       <div class="copyright">
-        &copy; 2016
+        &copy;
+        <%= info.year %>
       </div>
     </div>
   </div>
