@@ -1,5 +1,7 @@
 .portfolio__list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .portfolio__list__item__description__images {

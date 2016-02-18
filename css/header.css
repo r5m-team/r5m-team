@@ -3,45 +3,53 @@
   background-image: radial-gradient(#EF9C75, #D76D3E);
   color: #f8f8f8;
   /*min-height: 70vh;*/
-
   font-family: 'Roboto Slab', serif;
+  overflow: hidden;
 }
-
 .header-wrapper {
   position: relative;
-}
-
-.header-wrapper::before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 1400px;
-  content: " ";
-  display: block;
   background: url('../images/header-bg.png') no-repeat;
   background-size: 70% auto;
   background-position: bottom right;
-  /*min-height: 70vh;*/
+  overflow: visible;
 }
+
+/* Это извращение. */
+.header-wrapper::before {
+  position: absolute;
+  content: " ";
+  display: block;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  background: rgba(60, 42, 11, 0.3);
+}
+
+.header-wrapper::after {
+  position: absolute;
+  content: " ";
+  display: block;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  background: rgba(60, 42, 11, 0.3);
+}
+/* Конец извращения. */
 
 .header-wrapper-2 {
-  background: rgba(0,0,0, 0.3);
+  background: rgba(60, 42, 11, 0.3);
   /*min-height: 70vh;*/
 }
-
 .header-container {
   padding: 100px 0 250px;
 }
-
 .header__title {
   margin: 0 0 10px 0;
   text-shadow: 0 0 2px #333;
   font-size: 2.2rem;
 }
-
 .header__subtitle {
   font-weight: normal;
   margin: 10px 0;
@@ -49,11 +57,9 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
 }
-
 .header__actions {
   margin: 40px 0 0 0;
 }
-
 .header__actions button {
   background: #00bfad;
   border: none;
@@ -64,4 +70,8 @@
   font-size: 1.5rem;
   border-radius: 8px;
   cursor: pointer;
+}
+.header__actions button:hover {
+  color: #f8f8f8;
+  background: #08a899;
 }
