@@ -4,13 +4,20 @@ var htmlFiles = ['index', 'contacts'];
 /* Gulp tasks */
 var gulp = require('gulp');
 var shell = require('gulp-shell');
+var browserSync = require('browser-sync').create();
 
 gulp.task('daemon', function() {
-  gulp.watch('css/**/*.css', ['css']);
-  gulp.watch('bower_components/**/*.css', ['css']);
-  gulp.watch('bower_components/**/*.js', ['js']);
-  gulp.watch('tpl/**/*.ejs', ['html-render']);
-  gulp.watch('bower_components/r5m-cms/**/*.ejs', ['html-render']);
+  browserSync.init({
+    server: {
+      baseDir: "./"
+    }
+  });
+
+  gulp.watch('css/**/*.css', ['css-watch']);
+  gulp.watch('bower_components/**/*.css', ['css-watch']);
+  gulp.watch('bower_components/**/*.js', ['js-watch']);
+  gulp.watch('tpl/**/*.ejs', ['html-watch']);
+  gulp.watch('bower_components/r5m-cms/**/*.ejs', ['html-watch']);
 });
 
 
@@ -30,11 +37,18 @@ gulp.task('js', function() {
     ]))
     .pipe(gulp.dest('./dist/'));
 });
+gulp.task('js-watch', ['js'], function() {
+  browserSync.reload();
+});
 
 gulp.task('css', shell.task([
   './node_modules/.bin/r.js -o cssIn=bower_components/r5m-cms/css/all.css out=dist/engine.css',
   './node_modules/.bin/r.js -o cssIn=css/project.css out=dist/lp.css'
 ]));
+
+gulp.task('css-watch', ['css'], function() {
+  browserSync.reload();
+});
 
 
 var htmlCompileScripts = [];
@@ -47,6 +61,10 @@ htmlFiles.forEach(function(fileName) {
 gulp.task('html-compile', shell.task(htmlCompileScripts));
 
 gulp.task('html-render', ['html-compile'], shell.task(htmlRenderScripts));
+
+gulp.task('html-watch', ['html-render'], function() {
+  browserSync.reload();
+});
 
 gulp.task('install', shell.task([
   'mkdir ./dist/html',
