@@ -15,3 +15,14 @@
   box-sizing: border-box;
   padding: 0 20px;
 }
+
+.reasons-offer__title {
+  margin-right: 300px;
+  text-align: left;
+  text-transform: none;
+}
+
+.reasons-offer__actions {
+  float: right;
+  width: 300px;
+}
