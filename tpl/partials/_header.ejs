@@ -6,27 +6,38 @@
       </a>
     </div>
     <div class="header-top__call-me">
-      <button class="r5m-action" data-action="r5mDimmer-show" data-type="call">
+      <button class="header-top__call-me__button r5m-action" data-action="r5mDimmer-show" data-type="call">
         Заказать звонок
       </button>
     </div>
     <div class="header-top__order">
-      <a href="tel:+79876543210">+7 (987) 654 3210</a><br/>
+      <a class="header-top__order__phone" href="tel:+79876543210">+7 (987) 654 3210</a><br/>
       <span class="header-top__call-me__schedule">Ежедневно с 9.00 до 20.00</span>
     </div>
   </div>
 </header>
 
 <header class="header clearfix">
-  <div class="flexible-container">
-      <div>
-        <h1>
-          Индивидуальные сайты для вашего бизнеса под ключ от 25 000р.
-        </h1>
-        <h2>
-          Мы делаем сайты, в которые вы влюбляетесь
-        </h2>
+  <div class="header-wrapper">
+    <div class="header-wrapper-2">
+      <div class="flexible-container">
+        <div class="header-container">
+          <div>
+            <h1 class="header__title">
+              Индивидуальные сайты для под ключ<br/>от 25 000 рублей
+            </h1>
+            <h2 class="header__subtitle">
+              Мы делаем сайты, в которые вы влюбляетесь
+            </h2>
+            <p class="header__actions">
+              <button class="r5m-action" data-action="r5mDimmer-show" data-type="call">
+                Заказать сайт
+              </button>
+            </p>
+          </div>
+          <%# include('./_menu.ejs') %>
+        </div>
       </div>
-      <%- include('./_menu.ejs') %>
+    </div>
   </div>
 </header>

@@ -1,7 +1,9 @@
 @import '../dist/engine.css';
 
 /* Imports goes here */
+@import 'common.css';
 @import 'header-top.css';
+@import 'header.css';
 @import 'reasons.css';
 @import 'why-we.css';
 @import 'portfolio.css';

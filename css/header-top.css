@@ -1,9 +1,12 @@
 .header-top {
-  padding: 20px 0;
+  padding: 20px 0 10px;
+  background: #262936;
+  color: #f8f8f8;
 }
 
 .header-top__logo {
   float: left;
+  font-family: 'Roboto Slab', serif;
 }
 
 .header-top__call-me,
@@ -16,19 +19,48 @@
   padding-left: 10px;
 }
 
-.header-top__logo__link {
+.header-top__call-me__button {
+  background: #fcc700;
+  color: #262936;
+  box-shadow: 0 0 2px black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.header-top__order__phone {
+  color: inherit;
   text-decoration: none;
-  font-size: 2.5rem;
+}
+
+.header-top__logo__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 2rem;
   font-weight: bold;
+  vertical-align: top;
 }
 
 .header-top__logo__link__title {
   text-transform: uppercase;
+  vertical-align: top;
+  line-height: 1;
 }
 
 .header-top__logo__link__subtitle {
   position: relative;
-  top: 1.9rem;
+  top: 1.5rem;
   vertical-align: top;
-  font-size: 0.5em;
+  font-size: 0.7rem;
+}
+
+.header-top__order {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.header-top__call-me__schedule {
+  font-size: 0.75em;
 }

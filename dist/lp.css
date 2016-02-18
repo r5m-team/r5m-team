@@ -11,7 +11,6 @@
   padding: 0 50px;
 }
 body {
-  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   min-width: 900px;
@@ -563,11 +562,17 @@ section {
 .fade-out {
   opacity: 0;
 }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 .header-top {
-  padding: 20px 0;
+  padding: 20px 0 10px;
+  background: #262936;
+  color: #f8f8f8;
 }
 .header-top__logo {
   float: left;
+  font-family: 'Roboto Slab', serif;
 }
 .header-top__call-me,
 .header-top__order {
@@ -577,19 +582,102 @@ section {
   margin-left: 10px;
   padding-left: 10px;
 }
-.header-top__logo__link {
+.header-top__call-me__button {
+  background: #fcc700;
+  color: #262936;
+  box-shadow: 0 0 2px black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.header-top__order__phone {
+  color: inherit;
   text-decoration: none;
-  font-size: 2.5rem;
+}
+.header-top__logo__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 2rem;
   font-weight: bold;
+  vertical-align: top;
 }
 .header-top__logo__link__title {
   text-transform: uppercase;
+  vertical-align: top;
+  line-height: 1;
 }
 .header-top__logo__link__subtitle {
   position: relative;
-  top: 1.9rem;
+  top: 1.5rem;
   vertical-align: top;
-  font-size: 0.5em;
+  font-size: 0.7rem;
+}
+.header-top__order {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.header-top__call-me__schedule {
+  font-size: 0.75em;
+}
+.header {
+  background: #D76D3E;
+  background-image: radial-gradient(#EF9C75, #D76D3E);
+  color: #f8f8f8;
+  
+  font-family: 'Roboto Slab', serif;
+}
+.header-wrapper {
+  position: relative;
+}
+.header-wrapper::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1400px;
+  content: " ";
+  display: block;
+  background: url(../images/header-bg.png) no-repeat;
+  background-size: 70% auto;
+  background-position: bottom right;
+  
+}
+.header-wrapper-2 {
+  background: rgba(0,0,0, 0.3);
+  
+}
+.header-container {
+  padding: 100px 0 250px;
+}
+.header__title {
+  margin: 0 0 10px 0;
+  text-shadow: 0 0 2px #333;
+  font-size: 2.2rem;
+}
+.header__subtitle {
+  font-weight: normal;
+  margin: 10px 0;
+  text-shadow: 0 0 2px #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+}
+.header__actions {
+  margin: 40px 0 0 0;
+}
+.header__actions button {
+  background: #00bfad;
+  border: none;
+  box-shadow: 0 0 1px #666;
+  padding: 15px 30px;
+  font-weight: bold;
+  color: #f8f8f8;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
 }
 .reasons__list {
   list-style-type: none;
