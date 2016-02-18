@@ -1,0 +1,27 @@
+.portfolio__list {
+  list-style-type: none;
+}
+
+.portfolio__list__item__description__images {
+  float: right;
+  width: 30%;
+}
+
+.portfolio__list__item__description__images img {
+  width: 100%;
+}
+
+.portfolio__list__item__description__text {
+  margin-right: 30%;
+  padding: 0 20px 0 0;
+  text-align: justify;
+}
+
+.portfolio__list__item:nth-child(2n) .portfolio__list__item__description__images {
+  float: left;
+}
+
+.portfolio__list__item:nth-child(2n) .portfolio__list__item__description__text {
+  margin: 0 0 0 30%;
+  padding: 0 0 0 20px;
+}
