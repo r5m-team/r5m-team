@@ -591,3 +591,18 @@ section {
   vertical-align: top;
   font-size: 0.5em;
 }
+.reasons__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.reasons__list__reason {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 25%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
