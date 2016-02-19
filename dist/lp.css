@@ -771,6 +771,10 @@ body {
   box-sizing: border-box;
   padding: 0 10px 0 0;
 }
+.why-we__list__item__header {
+  text-transform: uppercase;
+  color: #062331;
+}
 .portfolio__list {
   list-style-type: none;
   padding: 0;
@@ -788,10 +792,159 @@ body {
   padding: 0 20px 0 0;
   text-align: justify;
 }
+.portfolio__list__item__title {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #062331;
+}
+.portfolio__list__item__link {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  background: #00bfad;
+  color: #f8f8f8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.portfolio__list__item__link:hover {
+  background: #08a899;
+}
 .portfolio__list__item:nth-child(2n) .portfolio__list__item__description__images {
   float: left;
 }
 .portfolio__list__item:nth-child(2n) .portfolio__list__item__description__text {
   margin: 0 0 0 30%;
   padding: 0 0 0 20px;
+}
+.offer {
+  background: #2d313e;
+  color: #f8f8f8;
+}
+.offer__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+.offer__picture-wrapper {
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.offer__picture {
+  height: 100%;
+  display: block;
+}
+.offer__feedback-wrapper {
+  width: 55%;
+  margin-left: 45%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.offer__feedback__form .r5mFeedback__input,
+.offer__feedback__form .r5mFeedback__text {
+  background: transparent;
+  border: 1px solid #f8f8f8;
+  color: #f8f8f8;
+}
+.offer__feedback__form .r5mFeedback__label_contacts {
+  width: 45%;
+  margin-right: 5%;
+  display: inline-block;
+}
+.offer__feedback__form .r5mFeedback__label_text {
+  width: 95%;
+}
+.offer__feedback-wrapper .reasons-offer__actions__order {
+  float: right;
+  margin-right: 5%;
+  margin-top: 10px;
+}
+.offer__title {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  text-transform: none;
+  font-size: 1.3rem;
+}
+.offer__title__wow {
+  color: #00bfad;
+}
+.team {
+  text-align: center;
+}
+.team__member {
+  display: inline-block;
+  width: 33.3%;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.team__member__info {
+  color: #262936;
+}
+.team__member__name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+}
+.team__member__position {
+  margin: 0;
+}
+.footer {
+  background: #183641;
+  color: #f8f8f8;
+}
+.footer__feedback__title {
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer__feedback__subtitle {
+  margin-top: 0;
+  font-weight: normal;
+}
+.footer__feedback__title__wow {
+  color: #00bfad;
+}
+.footer__info-wrapper {
+  float: left;
+  width: 50%;
+}
+.footer__feedback-wrapper {
+  width: 50%;
+  float: right;
+  margin-bottom: 20px;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.footer__feedback__form .r5mFeedback__input,
+.footer__feedback__form .r5mFeedback__text {
+  background: transparent;
+  border: 1px solid #f8f8f8;
+  color: #f8f8f8;
+}
+.footer__feedback__form .r5mFeedback__label_contacts {
+  width: 45%;
+  margin-right: 5%;
+  display: inline-block;
+}
+.footer__feedback__form .r5mFeedback__label_text {
+  width: 95%;
+}
+.footer__feedback-wrapper .reasons-offer__actions__order {
+  float: right;
+  margin-right: 5%;
+  margin-top: 10px;
+}
+.footer__bottom {
+  height: 50px;
+  background: #0a222e;
 }

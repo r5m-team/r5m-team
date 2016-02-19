@@ -1,0 +1,67 @@
+.offer {
+  background: #2d313e;
+  color: #f8f8f8;
+}
+
+.offer__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.offer__picture-wrapper {
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.offer__picture {
+  height: 100%;
+  display: block;
+}
+
+.offer__feedback-wrapper {
+  width: 55%;
+  margin-left: 45%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.offer__feedback__form .r5mFeedback__input,
+.offer__feedback__form .r5mFeedback__text {
+  background: transparent;
+  border: 1px solid #f8f8f8;
+  color: #f8f8f8;
+}
+
+.offer__feedback__form .r5mFeedback__label_contacts {
+  width: 45%;
+  margin-right: 5%;
+  display: inline-block;
+}
+
+.offer__feedback__form .r5mFeedback__label_text {
+  width: 95%;
+}
+
+.offer__feedback-wrapper .reasons-offer__actions__order {
+  float: right;
+  margin-right: 5%;
+  margin-top: 10px;
+}
+
+.offer__title {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  text-transform: none;
+  font-size: 1.3rem;
+}
+
+.offer__title__wow {
+  color: #00bfad;
+}
