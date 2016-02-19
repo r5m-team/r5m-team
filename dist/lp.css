@@ -568,7 +568,7 @@ body {
 }
 .header-top {
   padding: 20px 0 10px;
-  background: #262936;
+  background: #1F2731;
   color: #f8f8f8;
 }
 .header-top__logo {
@@ -624,7 +624,7 @@ body {
 }
 .header {
   background: #D76D3E;
-  background-image: radial-gradient(#EF9C75, #D76D3E);
+  background-image: radial-gradient(#28c7dc, #063e46);
   color: #f8f8f8;
   
   font-family: 'Roboto Slab', serif;
@@ -645,7 +645,7 @@ body {
   top: 0;
   bottom: 0;
   width: 10000px;
-  background: rgba(60, 42, 11, 0.3);
+  
 }
 .header-wrapper::after {
   position: absolute;
@@ -655,10 +655,10 @@ body {
   top: 0;
   bottom: 0;
   width: 10000px;
-  background: rgba(60, 42, 11, 0.3);
+  
 }
 .header-wrapper-2 {
-  background: rgba(60, 42, 11, 0.3);
+  
   
 }
 .header-container {
