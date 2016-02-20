@@ -1,0 +1,27 @@
+.team {
+  text-align: center;
+}
+
+.team__member {
+  display: inline-block;
+  width: 33.3%;
+  text-align: center;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.team__member__info {
+  color: #262936;
+}
+
+.team__member__name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.team__member__position {
+  margin: 0;
+}

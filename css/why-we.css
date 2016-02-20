@@ -15,3 +15,8 @@
 
   padding: 0 10px 0 0;
 }
+
+.why-we__list__item__header {
+  text-transform: uppercase;
+  color: #062331;
+}

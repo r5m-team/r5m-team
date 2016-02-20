@@ -19,6 +19,27 @@
   text-align: justify;
 }
 
+.portfolio__list__item__title {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #062331;
+}
+
+.portfolio__list__item__link {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  background: #00bfad;
+  color: #f8f8f8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.portfolio__list__item__link:hover {
+  background: #08a899;
+}
+
+
 .portfolio__list__item:nth-child(2n) .portfolio__list__item__description__images {
   float: left;
 }
