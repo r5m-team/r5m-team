@@ -1,7 +1,7 @@
 .header {
-  background: #D76D3E;
-  background-image: radial-gradient(#28c7dc, #063e46);
-  color: #f8f8f8;
+  background: #ec8558;
+  /*background-image: radial-gradient(#ec8558, #ec8558);*/
+  color: #ffffff;
   /*min-height: 70vh;*/
   font-family: 'Roboto Slab', serif;
   overflow: hidden;

@@ -623,9 +623,9 @@ body {
   font-size: 0.75em;
 }
 .header {
-  background: #D76D3E;
-  background-image: radial-gradient(#28c7dc, #063e46);
-  color: #f8f8f8;
+  background: #ec8558;
+  
+  color: #ffffff;
   
   font-family: 'Roboto Slab', serif;
   overflow: hidden;
