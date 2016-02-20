@@ -568,8 +568,9 @@ body {
 }
 .header-top {
   padding: 20px 0 10px;
-  background: #1F2731;
-  color: #f8f8f8;
+  background: #f8f8f8 ;
+  
+  color: #1F2731;
 }
 .header-top__logo {
   float: left;
@@ -623,9 +624,9 @@ body {
   font-size: 0.75em;
 }
 .header {
-  background: #ec8558;
+  background: #1F324a;
   
-  color: #ffffff;
+  color: #f8f8f8;
   
   font-family: 'Roboto Slab', serif;
   overflow: hidden;
