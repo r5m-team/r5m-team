@@ -723,7 +723,7 @@ section h2 {
 .reasons__list__reason__description {
   font-size: 0.9rem;
   text-align: center;
-  color: #757575;
+  color: #3a4646;
 }
 .reasons-offer {
   background: #2d313e;
@@ -784,6 +784,9 @@ section h2 {
 .why-we__list__item__header {
   text-transform: uppercase;
   color: #0e2f3e;
+}
+.why-we__list__item__description {
+  color: #3a4646;
 }
 .portfolio__list {
   list-style-type: none;
