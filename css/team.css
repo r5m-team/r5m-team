@@ -17,9 +17,11 @@
 }
 
 .team__member__name {
+  font-family: 'Roboto Slab', serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin: 0;
+  color: #0e2f3e;
 }
 
 .team__member__position {

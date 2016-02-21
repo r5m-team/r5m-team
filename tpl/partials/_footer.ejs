@@ -3,14 +3,16 @@
 
     <div class="flexible-container clearfix">
       <div class="footer__info-wrapper">
+        <p class="footer__info__name">ИП Захарченко Юлия Александровна</p>
+        <p class="footer__info__ogrnip">ОГРНИП 313890118900031</p>
         <div class="copyleft">
-          <p class="copyright__contact"><%= info.copyright %></p>
-          <p class="copyright__contact"><%= info.phone %></p>
+          <!--<p class="copyright__contact"><%= info.copyright %></p>-->
+          <p class="copyright__contact copyright__contact__phone"><%= info.phone %></p>
           <p class="copyright__contact"><%= info.email %></p>
           <p class="copyright__contact"><%= info.city %></p>
         </div>
         <div class="copyright">
-          &copy;
+          &copy; r5m.me,
           <%= info.year %>
         </div>
       </div>
@@ -22,19 +24,19 @@
           <p class="footer__feedback__subtitle"><span class="footer__feedback__title__wow">Напишите нам</span>, и мы с радостью на них ответим</p>
           <div class="r5mFeedback footer__feedback__form">
             <form action="/feedback" class="r5mFeedback__form">
-              <label class="r5mFeedback__label r5mFeedback__label_contacts">
+              <label class="r5mFeedback__label r5mFeedback__label_contacts r5mFeedback__label_onpage">
                 <span class="r5mFeedback__placeholder">Введите Ваше имя*</span>
-                <input class="r5mFeedback__input" name="name" required type="text" />
+                <input class="r5mFeedback__input r5mFeedback__input_onpage" name="name" required type="text" />
               </label>
-              <label class="r5mFeedback__label r5mFeedback__label_contacts last">
+              <label class="r5mFeedback__label r5mFeedback__label_contacts r5mFeedback__label_onpage last">
                 <span class="r5mFeedback__placeholder">E-mail или телефон*</span>
-                <input class="r5mFeedback__input" name="email" type="text" required />
+                <input class="r5mFeedback__input r5mFeedback__input_onpage" name="email" type="text" required />
               </label>
-              <label class="r5mFeedback__label r5mFeedback__label_text">
+              <label class="r5mFeedback__label r5mFeedback__label_text r5mFeedback__label_onpage">
                 <span class="r5mFeedback__placeholder">Описание Ваших пожеланий</span>
-                <textarea class="r5mFeedback__text" name="text"></textarea>
+                <textarea class="r5mFeedback__text r5mFeedback__text_onpage" name="text"></textarea>
               </label>
-              <button class="r5mFeedback__submit-button submit-button reasons-offer__actions__order r5m-action" type="submit">
+              <button class="r5mFeedback__submit-button submit-button submit-button_onpage reasons-offer__actions__order r5m-action" type="submit">
                 <!-- <i class="fa fa-check"></i>  -->
                 Задать вопрос
               </button>

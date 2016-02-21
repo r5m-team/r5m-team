@@ -25,33 +25,11 @@
 
 .offer__feedback-wrapper {
   width: 55%;
+  min-width: 500px;
   margin-left: 45%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.offer__feedback__form .r5mFeedback__input,
-.offer__feedback__form .r5mFeedback__text {
-  background: transparent;
-  border: 1px solid #f8f8f8;
-  color: #f8f8f8;
-}
-
-.offer__feedback__form .r5mFeedback__label_contacts {
-  width: 45%;
-  margin-right: 5%;
-  display: inline-block;
-}
-
-.offer__feedback__form .r5mFeedback__label_text {
-  width: 95%;
-}
-
-.offer__feedback-wrapper .reasons-offer__actions__order {
-  float: right;
-  margin-right: 5%;
-  margin-top: 10px;
 }
 
 .offer__title {
@@ -60,6 +38,7 @@
   text-align: left;
   text-transform: none;
   font-size: 1.3rem;
+  color: #f8f8f8;
 }
 
 .offer__title__wow {
