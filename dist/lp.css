@@ -875,10 +875,15 @@ section h2 {
 .team__member {
   display: inline-block;
   width: 33.3%;
+  padding: 20px 30px;
   text-align: center;
+  vertical-align: top;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+.team__member__description {
+  margin: 0;
 }
 .team__member__info {
   color: #262936;
@@ -892,6 +897,9 @@ section h2 {
 }
 .team__member__position {
   margin: 0;
+}
+.team__member__photo {
+  width: 80%;
 }
 .footer {
   background: #183641;
