@@ -1,6 +1,7 @@
 @import '../dist/engine.css';
 
 /* Imports goes here */
+@import 'font-awesome.min.css';
 @import 'common.css';
 @import 'header-top.css';
 @import 'header.css';
