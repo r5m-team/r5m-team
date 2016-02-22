@@ -570,6 +570,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #262936;
 }
+section h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #0e2f3e;
+}
 .header-top {
   padding: 20px 0 10px;
   background: #f8f8f8 ;
@@ -717,9 +721,13 @@ body {
   box-sizing: border-box;
   padding: 0 20px;
 }
+.reasons__list__reason__title {
+  color: #0e2f3e;
+}
 .reasons__list__reason__description {
   font-size: 0.9rem;
   text-align: center;
+  color: #3a4646;
 }
 .reasons-offer {
   background: #2d313e;
@@ -734,6 +742,7 @@ body {
   text-transform: none;
   font-size: 1.2rem;
   margin: 0;
+  color: #f8f8f8;
 }
 .reasons-offer__actions {
   float: right;
@@ -778,7 +787,10 @@ body {
 }
 .why-we__list__item__header {
   text-transform: uppercase;
-  color: #062331;
+  color: #0e2f3e;
+}
+.why-we__list__item__description {
+  color: #3a4646;
 }
 .portfolio__list {
   list-style-type: none;
@@ -800,7 +812,7 @@ body {
 .portfolio__list__item__title {
   font-weight: normal;
   text-transform: uppercase;
-  color: #062331;
+  color: #0e2f3e;
 }
 .portfolio__list__item__link {
   display: inline-block;
@@ -844,29 +856,11 @@ body {
 }
 .offer__feedback-wrapper {
   width: 55%;
+  min-width: 500px;
   margin-left: 45%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-.offer__feedback__form .r5mFeedback__input,
-.offer__feedback__form .r5mFeedback__text {
-  background: transparent;
-  border: 1px solid #f8f8f8;
-  color: #f8f8f8;
-}
-.offer__feedback__form .r5mFeedback__label_contacts {
-  width: 45%;
-  margin-right: 5%;
-  display: inline-block;
-}
-.offer__feedback__form .r5mFeedback__label_text {
-  width: 95%;
-}
-.offer__feedback-wrapper .reasons-offer__actions__order {
-  float: right;
-  margin-right: 5%;
-  margin-top: 10px;
 }
 .offer__title {
   margin: 0;
@@ -874,6 +868,7 @@ body {
   text-align: left;
   text-transform: none;
   font-size: 1.3rem;
+  color: #f8f8f8;
 }
 .offer__title__wow {
   color: #00bfad;
@@ -883,29 +878,46 @@ body {
 }
 .team__member {
   display: inline-block;
-  width: 33.3%;
+  width: 25%;
+  padding: 20px 30px;
   text-align: center;
+  vertical-align: top;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+.team__member__description {
+  margin: 0;
 }
 .team__member__info {
   color: #262936;
 }
 .team__member__name {
+  font-family: 'Roboto Slab', serif;
   font-size: 1.3rem;
   font-weight: bold;
   margin: 0;
+  color: #0e2f3e;
 }
 .team__member__position {
   margin: 0;
 }
+.team__member__photo-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.team__member__photo {
+  width: 220px;
+  max-width: 100%;
+}
 .footer {
   background: #183641;
   color: #f8f8f8;
+  position: relative;
 }
 .footer__feedback__title {
   margin-bottom: 5px;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -919,10 +931,36 @@ body {
 }
 .footer__info-wrapper {
   float: left;
-  width: 50%;
+}
+.footer__info__name {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.footer__info__ogrnip {
+  color: #8d9fb8;
+  margin-top: 0;
+}
+.copyleft {
+  margin-top: 40px;
+}
+.copyright__contact {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.copyright__contact__phone {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.copyright {
+  position: absolute;
+  bottom: 60px;
+  color: #8d9fb8;
 }
 .footer__feedback-wrapper {
   width: 50%;
+  min-width: 500px;
   float: right;
   margin-bottom: 20px;
   text-align: center;
@@ -930,26 +968,31 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.footer__feedback__form .r5mFeedback__input,
-.footer__feedback__form .r5mFeedback__text {
-  background: transparent;
-  border: 1px solid #f8f8f8;
-  color: #f8f8f8;
-}
-.footer__feedback__form .r5mFeedback__label_contacts {
-  width: 45%;
-  margin-right: 5%;
-  display: inline-block;
-}
-.footer__feedback__form .r5mFeedback__label_text {
-  width: 95%;
-}
-.footer__feedback-wrapper .reasons-offer__actions__order {
-  float: right;
-  margin-right: 5%;
-  margin-top: 10px;
-}
 .footer__bottom {
   height: 50px;
   background: #0a222e;
+}
+.r5mFeedback__input_onpage,
+.r5mFeedback__text_onpage {
+    background: transparent;
+    border: 1px solid #f8f8f8;
+    color: #f8f8f8;
+}
+.r5mFeedback__label_contacts.r5mFeedback__label_onpage:first-of-type {
+  margin-right: 3%;
+  margin-left: 0;
+}
+.r5mFeedback__label_contacts.r5mFeedback__label_onpage {
+  width: 47%;
+  margin-left: 3%;
+  margin-right: 0;
+  display: inline-block;
+}
+.r5mFeedback__label_text.r5mFeedback__label_onpage {
+  width: 100%;
+}
+.reasons-offer__actions__order.submit-button_onpage {
+  float: right;
+  margin: 0;
+  margin-top: 10px;
 }

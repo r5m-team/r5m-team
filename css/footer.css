@@ -1,10 +1,12 @@
 .footer {
   background: #183641;
   color: #f8f8f8;
+  position: relative;
 }
 
 .footer__feedback__title {
   margin-bottom: 5px;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -21,11 +23,43 @@
 
 .footer__info-wrapper {
   float: left;
-  width: 50%;
+}
+
+.footer__info__name {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.footer__info__ogrnip {
+  color: #8d9fb8;
+  margin-top: 0;
+}
+
+.copyleft {
+  margin-top: 40px;
+}
+
+.copyright__contact {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.copyright__contact__phone {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 60px;
+  color: #8d9fb8;
 }
 
 .footer__feedback-wrapper {
   width: 50%;
+  min-width: 500px;
   float: right;
   margin-bottom: 20px;
   text-align: center;
@@ -33,29 +67,6 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.footer__feedback__form .r5mFeedback__input,
-.footer__feedback__form .r5mFeedback__text {
-  background: transparent;
-  border: 1px solid #f8f8f8;
-  color: #f8f8f8;
-}
-
-.footer__feedback__form .r5mFeedback__label_contacts {
-  width: 45%;
-  margin-right: 5%;
-  display: inline-block;
-}
-
-.footer__feedback__form .r5mFeedback__label_text {
-  width: 95%;
-}
-
-.footer__feedback-wrapper .reasons-offer__actions__order {
-  float: right;
-  margin-right: 5%;
-  margin-top: 10px;
 }
 
 .footer__bottom {
