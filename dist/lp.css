@@ -874,7 +874,7 @@ section h2 {
 }
 .team__member {
   display: inline-block;
-  width: 33.3%;
+  width: 25%;
   padding: 20px 30px;
   text-align: center;
   vertical-align: top;
@@ -898,8 +898,13 @@ section h2 {
 .team__member__position {
   margin: 0;
 }
-.team__member__photo {
+.team__member__photo-wrapper {
   width: 80%;
+  margin: 0 auto;
+}
+.team__member__photo {
+  width: 220px;
+  max-width: 100%;
 }
 .footer {
   background: #183641;
