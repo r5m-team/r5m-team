@@ -763,7 +763,7 @@ section h2 {
   border: none;
   box-shadow: 0 0 1px #666;
   padding: 15px 30px;
-  font-weight: bold;
+  font-weight: normal;
   color: #f8f8f8;
   font-size: 1.5rem;
   border-radius: 8px;
@@ -902,7 +902,7 @@ section h2 {
   color: #0e2f3e;
 }
 .team__member__position {
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 .team__member__photo-wrapper {
   width: 80%;
