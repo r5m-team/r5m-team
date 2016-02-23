@@ -573,6 +573,7 @@ body {
 section h2 {
   font-family: 'Roboto Slab', serif;
   color: #0e2f3e;
+  font-size: 1.5rem;
 }
 .header-top {
   padding: 20px 0 10px;
@@ -671,19 +672,19 @@ section h2 {
   
 }
 .header-container {
-  padding: 100px 0 250px;
+  padding: 100px 0 300px;
 }
 .header__title {
   margin: 0 0 10px 0;
   text-shadow: 0 0 2px #333;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
 }
 .header__subtitle {
   font-weight: normal;
-  margin: 10px 0;
+  margin: 1.2rem 0;
   text-shadow: 0 0 2px #333;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 .header__actions {
   margin: 40px 0 0 0;
@@ -693,7 +694,7 @@ section h2 {
   border: none;
   box-shadow: 0 0 1px #666;
   padding: 15px 30px;
-  font-weight: bold;
+  font-weight: normal;
   color: #f8f8f8;
   font-size: 1.5rem;
   border-radius: 8px;
@@ -747,6 +748,7 @@ section h2 {
 .reasons-offer__actions {
   float: right;
   width: 300px;
+  margin-left: 30px;
 }
 .reasons-header {
   padding: 0 40px 20px;

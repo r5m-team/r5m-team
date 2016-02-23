@@ -6,6 +6,7 @@
   font-family: 'Roboto Slab', serif;
   overflow: hidden;
 }
+
 .header-wrapper {
   position: relative;
   background: url('../images/header-bg.png') no-repeat;
@@ -14,7 +15,9 @@
   overflow: visible;
 }
 
+
 /* Это извращение. */
+
 .header-wrapper::before {
   position: absolute;
   content: " ";
@@ -36,41 +39,49 @@
   width: 10000px;
   /*background: rgba(60, 42, 11, 0.3);*/
 }
+
+
 /* Конец извращения. */
 
 .header-wrapper-2 {
   /*background: rgba(60, 42, 11, 0.3);*/
   /*min-height: 70vh;*/
 }
+
 .header-container {
-  padding: 100px 0 250px;
+  padding: 100px 0 300px;
 }
+
 .header__title {
   margin: 0 0 10px 0;
   text-shadow: 0 0 2px #333;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
 }
+
 .header__subtitle {
   font-weight: normal;
-  margin: 10px 0;
+  margin: 1.2rem 0;
   text-shadow: 0 0 2px #333;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
+
 .header__actions {
   margin: 40px 0 0 0;
 }
+
 .header__actions button {
   background: #00bfad;
   border: none;
   box-shadow: 0 0 1px #666;
   padding: 15px 30px;
-  font-weight: bold;
+  font-weight: normal;
   color: #f8f8f8;
   font-size: 1.5rem;
   border-radius: 8px;
   cursor: pointer;
 }
+
 .header__actions button:hover {
   color: #f8f8f8;
   background: #08a899;
