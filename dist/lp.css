@@ -722,6 +722,10 @@ section h2 {
   box-sizing: border-box;
   padding: 0 20px;
 }
+.reasons__list__reason__image {
+  width: 120px;
+  margin: 0 auto;
+}
 .reasons__list__reason__title {
   color: #0e2f3e;
 }
@@ -731,11 +735,16 @@ section h2 {
   color: #3a4646;
 }
 .reasons-offer {
-  background: #2d313e;
+  background-image: url("/images/offer-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  
   color: #f8f8f8;
 }
 .reasons__offer__container {
   max-width: 1000px;
+  position: relative;
 }
 .reasons-offer__title {
   margin-right: 300px;
@@ -786,12 +795,20 @@ section h2 {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 10px 0 0;
+  position: relative;
+  margin-bottom: 30px;
+}
+.why-we__list__item__image {
+  float: left;
+  width: 220px;
 }
 .why-we__list__item__header {
+  margin: 0 0 20px 250px;
   text-transform: uppercase;
   color: #0e2f3e;
 }
 .why-we__list__item__description {
+  margin: 0 20px 0 250px;
   color: #3a4646;
 }
 .portfolio__list {
@@ -847,8 +864,20 @@ section h2 {
   padding: 2px 0;
 }
 .offer {
-  background: #2d313e;
+  background-image: url("/images/offer-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  
   color: #f8f8f8;
+}
+.offer__shadow {
+  background: rgba(36, 44, 55, 0.9);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .offer__container {
   max-width: 1100px;
@@ -960,14 +989,31 @@ section h2 {
 }
 .copyright__contact {
   margin: 0;
+  margin-bottom: 5px;
   color: #8d9fb8;
 }
 .copyright__contact__city {
   color: inherit;
 }
 .copyright__contact__phone {
+  background-image: url("/images/phone.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding-left: 30px;
   
   
+}
+.copyright__contact__email {
+  background-image: url("/images/email.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding-left: 30px;
+}
+.copyright__contact__hours {
+  background-image: url("/images/clock.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding-left: 30px;
 }
 .copyright {
   position: absolute;

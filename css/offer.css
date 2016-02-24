@@ -1,6 +1,19 @@
 .offer {
-  background: #2d313e;
+  background-image: url("/images/offer-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  /*background-color: #2d313e;*/
   color: #f8f8f8;
+}
+
+.offer__shadow {
+  background: rgba(36, 44, 55, 0.9);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .offer__container {

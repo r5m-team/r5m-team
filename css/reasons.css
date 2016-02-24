@@ -20,6 +20,11 @@
   padding: 0 20px;
 }
 
+.reasons__list__reason__image {
+  width: 120px;
+  margin: 0 auto;
+}
+
 .reasons__list__reason__title {
   color: #0e2f3e;
 }
@@ -31,12 +36,17 @@
 }
 
 .reasons-offer {
-  background: #2d313e;
+  background-image: url("/images/offer-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  /*background: #2d313e;*/
   color: #f8f8f8;
 }
 
 .reasons__offer__container {
   max-width: 1000px;
+  position: relative;
 }
 
 .reasons-offer__title {

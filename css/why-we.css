@@ -14,13 +14,22 @@
   box-sizing: border-box;
 
   padding: 0 10px 0 0;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.why-we__list__item__image {
+  float: left;
+  width: 220px;
 }
 
 .why-we__list__item__header {
+  margin: 0 0 20px 250px;
   text-transform: uppercase;
   color: #0e2f3e;
 }
 
 .why-we__list__item__description {
+  margin: 0 20px 0 250px;
   color: #3a4646;
 }
