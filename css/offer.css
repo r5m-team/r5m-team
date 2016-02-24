@@ -24,16 +24,25 @@
 
 .offer__picture-wrapper {
   width: 40%;
+  min-width: 320px;
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
+  bottom: 40px;
   overflow: hidden;
 }
 
 .offer__picture {
   height: 100%;
   display: block;
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .offer__feedback-wrapper {
@@ -43,6 +52,13 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.offer__feedback__form {
+  background-image: url("/images/arrow.png");
+  background-repeat: no-repeat;
+  background-size: auto 65px;
+  background-position: right 280px bottom 0;
 }
 
 .offer__title {
