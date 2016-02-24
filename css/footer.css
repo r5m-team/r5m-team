@@ -22,11 +22,12 @@
 }
 
 .footer__info-wrapper {
-  float: left;
+  /*float: left;*/
+  padding-top: 20px;
 }
 
 .footer__info__name {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 1.1rem;
   font-weight: bold;
