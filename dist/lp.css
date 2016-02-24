@@ -946,8 +946,8 @@ section h2 {
   float: left;
 }
 .footer__info__name {
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 0;
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -956,15 +956,18 @@ section h2 {
   margin-top: 0;
 }
 .copyleft {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .copyright__contact {
   margin: 0;
-  margin-bottom: 10px;
+  color: #8d9fb8;
+}
+.copyright__contact__city {
+  color: inherit;
 }
 .copyright__contact__phone {
-  font-size: 1.2rem;
-  font-weight: bold;
+  
+  
 }
 .copyright {
   position: absolute;
@@ -975,8 +978,9 @@ section h2 {
   width: 50%;
   min-width: 500px;
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
+  margin-top: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -991,15 +995,23 @@ section h2 {
     border: 1px solid #f8f8f8;
     color: #f8f8f8;
 }
+.r5mFeedback__text_onpage {
+  height: 150px;
+}
+.footer .r5mFeedback__text_onpage {
+  height: 100%;
+}
 .r5mFeedback__label_contacts.r5mFeedback__label_onpage:first-of-type {
-  margin-right: 3%;
+  padding-right: 10px;
   margin-left: 0;
 }
 .r5mFeedback__label_contacts.r5mFeedback__label_onpage {
-  width: 47%;
-  margin-left: 3%;
+  width: 50%;
+  box-sizing: border-box;
+  
   margin-right: 0;
-  display: inline-block;
+  
+  float: left;
 }
 .r5mFeedback__label_text.r5mFeedback__label_onpage {
   width: 100%;
@@ -1008,4 +1020,7 @@ section h2 {
   float: right;
   margin: 0;
   margin-top: 10px;
+}
+.r5mFeedback__label_onpage .r5mFeedback__placeholder.r5mFeedback__placeholder-top {
+  color: #99999a;
 }

@@ -5,16 +5,26 @@
     color: #f8f8f8;
 }
 
+.r5mFeedback__text_onpage {
+  height: 150px;
+}
+
+.footer .r5mFeedback__text_onpage {
+  height: 100%;
+}
+
 .r5mFeedback__label_contacts.r5mFeedback__label_onpage:first-of-type {
-  margin-right: 3%;
+  padding-right: 10px;
   margin-left: 0;
 }
 
 .r5mFeedback__label_contacts.r5mFeedback__label_onpage {
-  width: 47%;
-  margin-left: 3%;
+  width: 50%;
+  box-sizing: border-box;
+  /*margin-left: 3%;*/
   margin-right: 0;
-  display: inline-block;
+  /*display: inline-block;*/
+  float: left;
 }
 
 .r5mFeedback__label_text.r5mFeedback__label_onpage {
@@ -25,4 +35,8 @@
   float: right;
   margin: 0;
   margin-top: 10px;
+}
+
+.r5mFeedback__label_onpage .r5mFeedback__placeholder.r5mFeedback__placeholder-top {
+  color: #99999a;
 }
