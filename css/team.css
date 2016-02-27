@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.team-header {
+  margin-bottom: 30px;
+}
+
 .team__member {
   display: inline-block;
   width: 25%;
