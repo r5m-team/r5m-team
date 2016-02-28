@@ -1,6 +1,6 @@
 <%-
    include('../bower_components/r5m-cms/tpl/layout.ejs', {
-      title: 'Профессиональные продающие страницы<br/>для вашего бизнеса от 25 000р.',
+      title: 'Профессиональные <span class="utm1">продающие страницы</span><br/>для вашего бизнеса от 25 000р.',
       tagline: 'Индивидуальный дизайн. Мобильная версия в подарок.',
       motto: 'Мы делаем сайты, в которые вы влюбляетесь',
       subtitle: locals.subtitle,
@@ -16,6 +16,12 @@
         year: '2016',
         phone: '+7 999 619 3890',
         copyright: 'R5M group'
+      },
+      utmContent: {
+        utm1: {
+          'посадочн': 'посадочные страницы',
+          'landing': 'Landing Page'
+        }
       }
    });
 %>
