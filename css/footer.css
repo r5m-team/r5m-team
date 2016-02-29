@@ -76,8 +76,8 @@
 }
 
 .copyright {
-  position: absolute;
-  bottom: 70px;
+  /*position: absolute;*/
+  /*bottom: 70px;*/
   color: #8d9fb8;
 }
 
@@ -102,6 +102,6 @@
 }
 
 .footer__bottom {
-  height: 50px;
+  padding: 15px 0;
   background: #0a222e;
 }

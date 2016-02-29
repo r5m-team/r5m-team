@@ -15,6 +15,8 @@
 
 .portfolio__list__item__description__images img {
   width: 100%;
+  border-radius: 6px;
+  vertical-align: bottom;
 }
 
 .portfolio__list__item__description__text {
@@ -31,17 +33,13 @@
 }
 
 .portfolio__list__item__link {
-  display: inline-block;
-  padding: 15px 30px;
-  text-decoration: none;
-  background: #00bfad;
-  color: #f8f8f8;
-  border-radius: 8px;
   cursor: pointer;
+  color: #262936;
 }
 
 .portfolio__list__item__link:hover {
-  background: #08a899;
+  /*background: #08a899;*/
+  color: black;
 }
 
 
@@ -61,4 +59,26 @@
 
 .portfolio__list__item__works li {
   padding: 2px 0;
+}
+
+
+.portfolio__list__item__description__images {
+  position: relative;
+}
+
+.portfolio__list__item__description__images a::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background: rgba(0,0,0,0.25);
+  border-radius: 6px;
+  opacity: 0;
+}
+
+.portfolio__list__item__description__images:hover a::before {
+  opacity: 1;
+  transition: opacity 0.5s;
 }

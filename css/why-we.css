@@ -21,6 +21,7 @@
 .why-we__list__item__image {
   float: left;
   width: 220px;
+  border-radius: 6px;
 }
 
 .why-we__list__item__header {
