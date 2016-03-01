@@ -1116,6 +1116,20 @@ section h2 {
 .r5mFeedback__label_onpage .r5mFeedback__placeholder.r5mFeedback__placeholder-top {
   color: #99999a;
 }
+.r5m-dimmer .r5mFeedback__submit-button {
+  background: #08a899;
+  border-color: #08a899;
+}
+.r5m-dimmer .r5mFeedback__submit-button:hover {
+  color: #2b2a29;
+}
+.r5m-dimmer .r5mFeedback__form__header {
+  text-transform: none;
+  font-weight: bold;
+}
+.r5m-dimmer .r5mFeedback p {
+  color: #2b2a29; 
+}
 .last-content {
   text-align: center;
 }
