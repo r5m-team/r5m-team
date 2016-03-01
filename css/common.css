@@ -8,3 +8,8 @@ section h2 {
   color: #0e2f3e;
   font-size: 1.5rem;
 }
+
+.mailto-link {
+  color: #00bfad;
+  font-weight: 700;
+}
