@@ -869,6 +869,9 @@ section h2 {
 .portfolio__list__item__description__images {
   position: relative;
 }
+.portfolio__list__item__description__images a {
+  text-decoration: none;
+}
 .portfolio__list__item__description__images a::before {
   position: absolute;
   left: 0;
@@ -876,7 +879,7 @@ section h2 {
   top: 0;
   bottom: 0;
   content: "";
-  background: rgba(0,0,0,0.25);
+  background: rgba(0, 0, 0, 0.25);
   border-radius: 6px;
   opacity: 0;
 }
@@ -895,7 +898,6 @@ section h2 {
   display: block;
   text-transform: uppercase;
   position: absolute;
-  text-decoration: none;
   top: -12px;
   right: -60px;
   padding: 25px 60px 10px 60px;
