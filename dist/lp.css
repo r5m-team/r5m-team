@@ -902,7 +902,7 @@ section h2 {
   position: relative;
 }
 .offer__picture-wrapper {
-  width: 40%;
+  width: 45%;
   min-width: 320px;
   position: absolute;
   top: 0;
@@ -912,7 +912,7 @@ section h2 {
   padding: 0 20px 0 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 .offer__picture {
   max-height: 100%;
@@ -924,7 +924,7 @@ section h2 {
 .offer__feedback-wrapper {
   width: 55%;
   min-width: 500px;
-  margin-left: 40%;
+  margin-left: 45%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -940,6 +940,9 @@ section h2 {
   position: relative;
   border-color: #999;
   margin-bottom: 20px;
+  text-align: left;
+  text-transform: none;
+  font-size: 1.3rem;
 }
 .offer__title__wow {
   color: #00bfad;
