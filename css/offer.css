@@ -54,7 +54,7 @@
 
 .offer__feedback-wrapper {
   width: 55%;
-  min-width: 500px;
+  /*min-width: 500px;*/
   margin-left: 45%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

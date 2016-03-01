@@ -832,7 +832,7 @@ section h2 {
 .portfolio__list__item__description__text {
   margin-right: 40%;
   padding: 0 40px 0 0;
-  text-align: justify;
+  text-align: left;
 }
 .portfolio__list__item__title {
   font-weight: 700;
@@ -923,7 +923,7 @@ section h2 {
 }
 .offer__feedback-wrapper {
   width: 55%;
-  min-width: 500px;
+  
   margin-left: 45%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1114,4 +1114,22 @@ section h2 {
 }
 .last-content {
   text-align: center;
+}
+@media all and (max-width: 1280px) {
+  .why-we__list__item {
+    padding: 10px 25px;
+  }
+  .why-we__list__item__image {
+    float: none;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  .why-we__list__item__header {
+    margin: 10px auto 10px;
+    text-align: center;
+  }
+  .why-we__list__item__description {
+    margin: 0 auto;
+    text-align: center;
+  }
 }

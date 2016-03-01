@@ -1,0 +1,21 @@
+@media all and (max-width: 1280px) {
+  .why-we__list__item {
+    padding: 10px 25px;
+  }
+
+  .why-we__list__item__image {
+    float: none;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+
+  .why-we__list__item__header {
+    margin: 10px auto 10px;
+    text-align: center;
+  }
+
+  .why-we__list__item__description {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
