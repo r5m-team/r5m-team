@@ -95,6 +95,7 @@
   display: block;
   text-transform: uppercase;
   position: absolute;
+  text-decoration: none;
 
   top: -12px;
   right: -60px;

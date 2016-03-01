@@ -895,6 +895,7 @@ section h2 {
   display: block;
   text-transform: uppercase;
   position: absolute;
+  text-decoration: none;
   top: -12px;
   right: -60px;
   padding: 25px 60px 10px 60px;
