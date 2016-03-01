@@ -701,7 +701,7 @@ section h2 {
   font-weight: normal;
   color: #f8f8f8;
   font-size: 1.5rem;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
 }
 .header__actions button:hover {
@@ -779,7 +779,7 @@ section h2 {
   font-weight: normal;
   color: #f8f8f8;
   font-size: 1.5rem;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
 }
 .reasons-offer__actions__order:hover {
@@ -884,6 +884,26 @@ section h2 {
   opacity: 1;
   transition: opacity 0.5s;
 }
+.portfolio__list__item__description__images {
+  overflow: hidden;
+  border-radius: 6px;
+}
+.portfolio__list__item__description__images.new a::after {
+  content: "new";
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: block;
+  text-transform: uppercase;
+  position: absolute;
+  top: -12px;
+  right: -60px;
+  padding: 25px 60px 10px 60px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #00bfad;
+  color: white;
+}
 .offer {
   background-image: url("/images/offer-background.jpg");
   background-attachment: fixed;
@@ -933,11 +953,21 @@ section h2 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.offer__feedback__form {
+.r5mFeedback__submit-button.reasons-offer__actions__order {
+  position: relative;
+}
+.r5mFeedback__submit-button.reasons-offer__actions__order::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 100%;
+  bottom: 0;
+  width: 65px;
+  height: 65px;
   background-image: url("/images/arrow.png");
   background-repeat: no-repeat;
   background-size: auto 65px;
-  background-position: right 280px bottom 0;
+  
 }
 .offer__title {
   color: #f8f8f8;
@@ -1071,15 +1101,12 @@ section h2 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.footer__feedback__form {
-  background-image: url("/images/arrow.png");
-  background-repeat: no-repeat;
-  background-size: auto 65px;
-  background-position: right 250px bottom 0;
-}
 .footer__bottom {
   padding: 15px 0;
   background: #0a222e;
+}
+.r5mFeedback__text {
+  font-family: "Open Sans", sans-serif;
 }
 .r5mFeedback__input_onpage,
 .r5mFeedback__text_onpage {
@@ -1128,7 +1155,7 @@ section h2 {
   font-weight: bold;
 }
 .r5m-dimmer .r5mFeedback p {
-  color: #2b2a29; 
+  color: #2b2a29;
 }
 .last-content {
   text-align: center;

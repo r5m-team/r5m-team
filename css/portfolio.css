@@ -82,3 +82,27 @@
   opacity: 1;
   transition: opacity 0.5s;
 }
+
+.portfolio__list__item__description__images {
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.portfolio__list__item__description__images.new a::after {
+  content: "new";
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: block;
+  text-transform: uppercase;
+  position: absolute;
+
+  top: -12px;
+  right: -60px;
+  padding: 25px 60px 10px 60px;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #00bfad;
+  color: white;
+}

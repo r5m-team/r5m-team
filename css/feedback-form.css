@@ -1,3 +1,7 @@
+.r5mFeedback__text {
+  font-family: "Open Sans", sans-serif;
+}
+
 .r5mFeedback__input_onpage,
 .r5mFeedback__text_onpage {
     background: transparent;
@@ -56,5 +60,5 @@
 }
 
 .r5m-dimmer .r5mFeedback p {
-  color: #2b2a29; 
+  color: #2b2a29;
 }

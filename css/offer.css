@@ -61,11 +61,22 @@
   box-sizing: border-box;
 }
 
-.offer__feedback__form {
+.r5mFeedback__submit-button.reasons-offer__actions__order {
+  position: relative;
+}
+
+.r5mFeedback__submit-button.reasons-offer__actions__order::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 100%;
+  bottom: 0;
+  width: 65px;
+  height: 65px;
   background-image: url("/images/arrow.png");
   background-repeat: no-repeat;
   background-size: auto 65px;
-  background-position: right 280px bottom 0;
+  /*background-position: right 280px bottom 0;*/
 }
 
 .offer__title {

@@ -94,12 +94,7 @@
   box-sizing: border-box;
 }
 
-.footer__feedback__form {
-  background-image: url("/images/arrow.png");
-  background-repeat: no-repeat;
-  background-size: auto 65px;
-  background-position: right 250px bottom 0;
-}
+
 
 .footer__bottom {
   padding: 15px 0;
