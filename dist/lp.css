@@ -1245,3 +1245,9 @@ section {
 .r5mFeedback__submit-button.reasons-offer__actions__order::before {
   display: none;
 }
+.team__member {
+  width: 100%;
+}
+.footer__feedback {
+  display: none;
+}
