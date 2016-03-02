@@ -1,7 +1,9 @@
-@import 'header.css';
-@import 'reasons.css';
-@import 'why-we.css';
-@import 'portfolio.css';
-@import 'offer.css';
-@import 'team.css';
-@import 'footer.css';
+@media all and (max-width: 600px) {
+  @import 'header.css';
+  @import 'reasons.css';
+  @import 'why-we.css';
+  @import 'portfolio.css';
+  @import 'offer.css';
+  @import 'team.css';
+  @import 'footer.css';
+}
