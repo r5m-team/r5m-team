@@ -1,17 +1,6 @@
 @import '../dist/engine.css';
 
 /* Imports goes here */
-@import 'font-awesome.min.css';
-@import 'common.css';
-@import 'header-top.css';
-@import 'header.css';
-@import 'reasons.css';
-@import 'why-we.css';
-@import 'portfolio.css';
-@import 'offer.css';
-@import 'team.css';
-@import 'footer.css';
-@import 'feedback-form.css';
-@import 'last.css';
-
+@import 'main/project.css';
 @import 'small/project.css';
+@import 'mobile/project.css';

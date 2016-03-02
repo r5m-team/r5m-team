@@ -9,7 +9,7 @@
 
 .header-wrapper {
   position: relative;
-  background: url('../images/header-bg.png') no-repeat;
+  background: url('../../images/header-bg.png') no-repeat;
   background-size: 70% auto;
   background-position: bottom right;
   overflow: visible;
@@ -17,7 +17,7 @@
 
 
 /* Это извращение. */
-
+/*
 .header-wrapper::before {
   position: absolute;
   content: " ";
@@ -26,7 +26,7 @@
   top: 0;
   bottom: 0;
   width: 10000px;
-  /*background: rgba(60, 42, 11, 0.3);*/
+  background: rgba(60, 42, 11, 0.3);
 }
 
 .header-wrapper::after {
@@ -37,8 +37,8 @@
   top: 0;
   bottom: 0;
   width: 10000px;
-  /*background: rgba(60, 42, 11, 0.3);*/
-}
+  background: rgba(60, 42, 11, 0.3);
+}*/
 
 
 /* Конец извращения. */

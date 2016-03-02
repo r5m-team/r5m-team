@@ -1,0 +1,21 @@
+.reasons__list__reason {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.reasons-header {
+  padding: 0;
+}
+
+.reasons__list__reason__title {
+  margin: 5px 0;
+}
+
+.reasons__list__reason__description {
+  margin: 0;
+}
+
+.reasons-offer__actions {
+  float: none;
+  margin: 10px 0;
+}
