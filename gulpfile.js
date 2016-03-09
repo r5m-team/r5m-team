@@ -1,5 +1,5 @@
 /* CONFIGS */
-var htmlFiles = ['index', 'contacts'];
+var htmlFiles = ['index'];
 
 /* Gulp tasks */
 var gulp = require('gulp');
