@@ -1164,6 +1164,9 @@ section {
   color: inherit;
   text-decoration: none;
 }
+.copyright__contact__phone a {
+  color: #f8f8f8;
+}
 .r5mFeedback__text {
   font-family: "Open Sans", sans-serif;
 }
