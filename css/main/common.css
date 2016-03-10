@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #262936;
+  min-width: 900px;
 }
 
 section h2 {

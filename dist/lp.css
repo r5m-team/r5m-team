@@ -572,6 +572,7 @@ body.with-dimmer {
 body {
   font-family: 'Open Sans', sans-serif;
   color: #262936;
+  min-width: 900px;
 }
 section h2 {
   font-family: 'Roboto Slab', serif;
@@ -1267,6 +1268,9 @@ section {
   }
 }
 @media all and (max-width: 600px) {
+  body {
+  min-width: 0;
+}
   .header-top {
   padding-top: 10px;
 }
