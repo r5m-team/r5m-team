@@ -94,3 +94,27 @@
 .offer__title__wow {
   color: #00bfad;
 }
+
+
+.section-content {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.section-content-list {
+  max-width: 1000px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  list-style-type: none;
+}
+
+.section-content-list li {
+  margin: 10px 0;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+
+}

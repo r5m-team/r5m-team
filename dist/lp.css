@@ -975,6 +975,25 @@ section {
 .offer__title__wow {
   color: #00bfad;
 }
+.section-content {
+  max-width: 800px;
+  margin: 10px auto;
+}
+.section-content-list {
+  max-width: 1000px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  list-style-type: none;
+}
+.section-content-list li {
+  margin: 10px 0;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+}
 .team {
   text-align: center;
 }
@@ -1199,6 +1218,36 @@ section {
 .last-content {
   text-align: center;
 }
+.gallery-container {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.gallery-container li {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+}
+.gallery-container .r5m-gallery-img img {
+  max-width: 100%;
+  max-height: 100px;
+}
+.gallery-container figure {
+  max-width: 200px;
+  margin: 0;
+  text-align: center;
+}
+.gallery-container a {
+  color: #f8f8f8;
+  font-size: 0.85em;
+}
+.certs {
+  background: #1F324a;
+  color: white;
+}
+.certs h2 {
+  color: white;
+}
 @media all and (max-width: 1280px) {
   .why-we__list__item {
     padding: 10px 25px;
@@ -1291,10 +1340,17 @@ section {
 .r5mFeedback__submit-button.reasons-offer__actions__order::before {
   display: none;
 }
+.section-content-list li {
+  width: 100%;
+}
   .team__member {
   width: 100%;
 }
   .footer__feedback {
   display: none;
+}
+  .gallery-container li {
+  max-width: 50%;
+  box-sizing: border-box;
 }
 }

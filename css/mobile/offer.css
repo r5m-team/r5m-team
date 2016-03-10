@@ -19,3 +19,7 @@
 .r5mFeedback__submit-button.reasons-offer__actions__order::before {
   display: none;
 }
+
+.section-content-list li {
+  width: 100%;
+}
