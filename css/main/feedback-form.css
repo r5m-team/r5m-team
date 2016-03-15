@@ -62,3 +62,12 @@
 .r5m-dimmer .r5mFeedback p {
   color: #2b2a29;
 }
+
+
+.r5mFeedback__privacy-statement-container {
+  /*width: 45%;*/
+}
+
+.r5mFeedback__privacy-statement a {
+  color: #aaa;
+}
