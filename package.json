@@ -8,11 +8,12 @@
 	},
 	"r5m": {
 		"deployTo": "git@github.com:r5m-team/r5m-team.github.io.git",
+		"deployToBranch": "master",
 		"htmlFiles": [
 			"index"
 		],
 		"minifyHtml": true,
-		"clientVersion": "v0.0.4"
+		"clientVersion": "v0.0.6"
 	},
 	"author": "mikhael",
 	"license": "ISC",
