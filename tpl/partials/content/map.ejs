@@ -17,7 +17,8 @@
         center: new google.maps.LatLng(56.452543, 84.97355390000007),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false,
-        mapTypeControl: false
+        mapTypeControl: false,
+        draggable: false
       };
       map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
       marker = new google.maps.Marker({
