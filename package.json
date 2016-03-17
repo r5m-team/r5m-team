@@ -26,7 +26,8 @@
 		"gulp-shell": "^0.5.2",
 		"html-minifier": "^1.2.0",
 		"merge-stream": "^1.0.0",
-		"requirejs": "^2.1.22"
+		"requirejs": "^2.1.22",
+		"gulp-sitemap": "^3.1.0"
 	},
 	"devDependencies": {
 		"browser-sync": "^2.11.1",

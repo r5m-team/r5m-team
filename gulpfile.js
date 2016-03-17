@@ -12,6 +12,7 @@ var copyOnly = require('./src/tasks/copy-only');
 var ghDeploy = require('./src/tasks/deploy');
 var install = require('./src/tasks/install');
 var daemon = require('./src/tasks/daemon');
+var sitemap = require('./src/tasks/sitemap');
 
 /* Basic tasks */
 gulp.task('js', jsBuilder());
@@ -22,5 +23,7 @@ gulp.task('assets', copyOnly());
 gulp.task('daemon', ['js', 'css', 'html', 'assets'], daemon());
 gulp.task('deploy', ghDeploy(options));
 gulp.task('install', install(options));
+
+gulp.task('sitemap', sitemap('./dist'));
 
 gulp.task('default', ['daemon']);
