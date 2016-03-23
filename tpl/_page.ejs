@@ -1,9 +1,26 @@
 <%-
    include('../bower_components/r5m-cms/tpl/layout.ejs', {
-      title: 'Профессиональные сайты для вашего бизнеса от 15т.р.',
-      titleHtml: 'Профессиональные <span class="utm1">сайты</span><br/>для вашего бизнеса от&nbsp;15т.р.',
+      title: 'Профессиональные Landing Page для вашего бизнеса от 15т.р.',
+      titleHtml: 'Профессиональные <span class="utm1">Landing Page</span><br/>для вашего бизнеса от&nbsp;15т.р.',
       tagline: 'Индивидуальный дизайн. Мобильная версия в подарок.',
       motto: 'Мы делаем сайты, в которые вы влюбляетесь',
+      metaTags: {
+        description: 'Создание Landing Page под ключ с индивидуальным дизайном от 15т.р. Мобильная версия в подарок.',
+        keywords: 'Сайт, Landing page, Дизайн, разработка сайтов, заказать сайт, мобильная версия сайта, продающие сайты',
+
+        title: 'Профессиональные Landing Page для вашего бизнеса от 15т.р.',
+        image: './images/header-bg-fill.jpg',
+        url: 'https://r5m.me',
+        lat: '56.452383',
+        lon: '84.973682',
+
+        locality: 'Томск',
+        postal: '634045',
+        country: 'Россия',
+
+        yaVer: '52b1f408216a1df1',
+        goVer: 'hMbf1cLzszr-wTdhe3hcCQQM3rNmbNKKvwejgamFrtA'
+      },
       subtitle: locals.subtitle,
       parts: [locals.parts, '_metrika', '_chat'],
       meta: '_meta',

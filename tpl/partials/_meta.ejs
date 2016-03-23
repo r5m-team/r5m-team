@@ -1,25 +1,30 @@
-<!-- Общие теги для соцсетей VK, FB, Twitter :: Они же основные теги из OpenGraph -->
-<meta name="description" content="Создание сайтов под ключ с индивидуальным дизайном от 15т.р. Мобильная версия в подарок." />
-<meta property="og:description" content = "Создание сайтов под ключ с индивидуальным дизайном от 15т.р. Мобильная версия в подарок.">
-<meta property="og:title" content = "Профессиональные сайты для вашего бизнеса от 15т.р.">
-<meta property="og:image" content = "./images/header-bg-fill.jpg">
-<meta property="og:url" content="https://r5m.me"/>
+<%# Общие теги для соцсетей VK, FB, Twitter :: Они же основные теги из OpenGraph %>
+<meta name="description" content="<%= metaTags.description %>" />
+<meta property="og:description" content = "<%= metaTags.description %>">
+<meta property="og:title" content = "<%= metaTags.title %>">
+<meta property="og:image" content = "<%= metaTags.image %>">
+<meta property="og:url" content="<%= metaTags.url %>"/>
 
-<!-- Местоположение и контактная информация предприятия для Google -->
-<meta property="place:location:latitude" content="56.452383"/>
-<meta property="place:location:longitude" content="84.973682"/>
-<!-- <meta property="business:contact_data:street_address" content="Название улицы"/> -->
-<meta property="business:contact_data:locality" content="Томск"/>
-<meta property="business:contact_data:postal_code" content="634045"/>
-<meta property="business:contact_data:country_name" content="Россия"/>
-<meta property="business:contact_data:email" content="info@r5m.me"/>
-<meta property="business:contact_data:phone_number" content="+7-999-177-8901"/>
-<meta property="business:contact_data:website" content="https://r5m.me"/>
+<%# Местоположение и контактная информация предприятия для Google %>
+<meta property="place:location:latitude" content="<%= metaTags.lat %>"/>
+<meta property="place:location:longitude" content="<%= metaTags.lon %>"/>
+<%# <meta property="business:contact_data:street_address" content="Название улицы"/> %>
+<meta property="business:contact_data:locality" content="<%= metaTags.locality %>"/>
+<meta property="business:contact_data:postal_code" content="<%= metaTags.postal %>"/>
+<meta property="business:contact_data:country_name" content="<%= metaTags.country %>"/>
+<meta property="business:contact_data:email" content="<%= info.email %>"/>
+<meta property="business:contact_data:phone_number" content="<%= info.phoneLink %>"/>
+<meta property="business:contact_data:website" content="<%= metaTags.url %>"/>
 
-<!-- Google не использует этот тег, но Яндекс еще может использовать
-https://yandex.ru/support/webmaster/controlling-robot/html.xml -->
-<meta name="Keywords" content="Сайт, Landing page, Дизайн, разработка сайтов, заказать сайт, мобильная версия сайта, продающие сайты"/>
+<%# Google не использует этот тег, но Яндекс еще может использовать https://yandex.ru/support/webmaster/controlling-robot/html.xml %>
+<% if(metaTags.keywords) { %>
+  <meta name="Keywords" content="<%= metaTags.keywords %>"/>
+<% } %>
 
-<!-- Верификация сайта Яндексом и Google, чтобы этот сайт принадлежал нашим пользователям -->
-<meta name='yandex-verification' content='52b1f408216a1df1' />
-<meta name="google-site-verification" content="hMbf1cLzszr-wTdhe3hcCQQM3rNmbNKKvwejgamFrtA" />
+<%# Верификация сайта Яндексом и Google, чтобы этот сайт принадлежал нашим пользователям %>
+<% if(metaTags.yaVer) { %>
+  <meta name='yandex-verification' content='52b1f408216a1df1' />
+<% } %>
+<% if(metaTags.goVer) { %>
+  <meta name="google-site-verification" content="hMbf1cLzszr-wTdhe3hcCQQM3rNmbNKKvwejgamFrtA" />
+<% } %>
