@@ -1,0 +1,18 @@
+.package__wrapper {
+  float: none;
+  width: 100%;
+}
+
+.package {
+  margin-bottom: 20px;
+}
+
+.package:hover {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -moz-transform: none;
+  transform: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
