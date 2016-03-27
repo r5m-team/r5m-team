@@ -10,7 +10,7 @@
 		"deployTo": "git@github.com:r5m-team/r5m-team.github.io.git",
 		"deployToBranch": "master",
 		"htmlFiles": [
-			"index"
+			"index", "404"
 		],
 		"minifyHtml": true,
 		"clientVersion": ""
