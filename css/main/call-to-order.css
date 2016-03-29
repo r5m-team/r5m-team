@@ -9,4 +9,8 @@
 
 .call-to-order-header {
   color: white;
+  padding: 0 40px 10px;
+  border-bottom: solid 1px #ccc;
+  max-width: 800px;
+  margin: 0 auto; 
 }
