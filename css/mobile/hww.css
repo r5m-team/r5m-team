@@ -1,0 +1,13 @@
+.hww {
+  margin: 0 auto;
+}
+
+.hww__item, .hww__arrow {
+  display: block;
+  width: 100%;
+}
+
+.hww__arrow {
+  transform: rotate(90deg);
+  margin-left: 5px;
+}
