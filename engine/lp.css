@@ -1249,6 +1249,10 @@ section {
 }
 .call-to-order-header {
   color: white;
+  padding: 0 40px 10px;
+  border-bottom: solid 1px #ccc;
+  max-width: 800px;
+  margin: 0 auto; 
 }
 .gallery-container {
   list-style-type: none;
@@ -1279,6 +1283,10 @@ section {
 }
 .certs h2 {
   color: white;
+  padding: 0 40px 10px;
+  border-bottom: solid 1px #ccc;
+  max-width: 800px;
+  margin: 0 auto; 
 }
 .packages__container {
   max-width: 1200px;
