@@ -593,9 +593,9 @@ body {
 section h2 {
   font-family: 'Roboto Slab', serif;
   color: #0e2f3e;
-  font-size: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
+  max-width: 900px;
   text-align: center;
   margin: 20px 0 50px 0;
 }
@@ -606,6 +606,9 @@ section h2 {
 section {
   padding: 30px 0;
   background-color: #efefef;
+}
+.r5m-dimmer-active {
+  background-color: rgba(10%, 10%, 10%, 0.7);
 }
 .header-top {
   padding: 20px 0 10px;
@@ -689,7 +692,7 @@ section {
 .header__title {
   margin: 0 0 10px 0;
   text-shadow: 0 0 2px #333;
-  font-size: 2.4rem;
+  font-size: 3.2rem;
 }
 .header__subtitle {
   font-weight: normal;
@@ -697,6 +700,17 @@ section {
   text-shadow: 0 0 2px #333;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25rem;
+}
+.header__subtitle ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header__subtitle ul li {
+  padding: 3px 0;
+}
+.header__subtitle ul li i{
+  padding-right: 10px;
 }
 .header__actions {
   margin: 40px 0 0 0;
@@ -773,7 +787,6 @@ section {
 .reasons-header {
   padding: 0 40px 10px;
   border-bottom: solid 1px #ccc;
-  max-width: 800px;
 }
 .reasons-offer__title__wow {
   color: #00bfad;
@@ -792,6 +805,13 @@ section {
 .reasons-offer__actions__order:hover {
   color: #f8f8f8;
   background: #08a899;
+}
+.why-we {
+  background: #1f324a none repeat scroll 0 0;
+  color: white;
+}
+.why-we-header {
+  color: white;
 }
 .why-we__list {
   list-style-type: none;
@@ -822,6 +842,9 @@ section {
 .why-we__list__item__description {
   margin: 0 20px 0 250px;
   color: #3a4646;
+}
+.why-we__list__item__header, .why-we__list__item__description {
+  color: white;
 }
 .portfolio__list {
   list-style-type: none;
@@ -1539,6 +1562,7 @@ section {
   .package__wrapper {
   float: none;
   width: 100%;
+  margin: 0 auto;
 }
 .package {
   margin-bottom: 20px;
