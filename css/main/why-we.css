@@ -1,3 +1,12 @@
+.why-we {
+  background: #1f324a none repeat scroll 0 0;
+  color: white;
+}
+
+.why-we-header {
+  color: white;
+}
+
 .why-we__list {
   list-style-type: none;
   padding: 0;
@@ -33,4 +42,8 @@
 .why-we__list__item__description {
   margin: 0 20px 0 250px;
   color: #3a4646;
+}
+
+.why-we__list__item__header, .why-we__list__item__description {
+  color: white;
 }

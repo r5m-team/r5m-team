@@ -7,10 +7,9 @@ body {
 section h2 {
   font-family: 'Roboto Slab', serif;
   color: #0e2f3e;
-  font-size: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
-
+  max-width: 900px;
   text-align: center;
   margin: 20px 0 50px 0;
 }
@@ -23,4 +22,8 @@ section h2 {
 section {
   padding: 30px 0;
   background-color: #efefef;
+}
+
+.r5m-dimmer-active {
+  background-color: rgba(10%, 10%, 10%, 0.7);
 }
