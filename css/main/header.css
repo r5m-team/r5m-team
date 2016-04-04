@@ -6,17 +6,17 @@
   font-family: 'Roboto Slab', serif;
   overflow: hidden;
 }
-
 .header-wrapper {
   position: relative;
   background: url('../../images/header-bg.png') no-repeat;
-  background-size: 70% auto;
+  background-size: 60% auto;
   background-position: bottom right;
   overflow: visible;
 }
 
-
 /* Это извращение. */
+
+
 /*
 .header-wrapper::before {
   position: absolute;
@@ -47,17 +47,15 @@
   /*background: rgba(60, 42, 11, 0.3);*/
   /*min-height: 70vh;*/
 }
-
-.header-container {
-  padding: 100px 0 300px;
+.header-container {/*
+  padding: 100px 0 300px;*/
+  padding: 50px 0 120px;
 }
-
 .header__title {
   margin: 0 0 10px 0;
   text-shadow: 0 0 2px #333;
   font-size: 3.2rem;
 }
-
 .header__subtitle {
   font-weight: normal;
   margin: 1.2rem 0;
@@ -65,26 +63,20 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25rem;
 }
-
-.header__subtitle ul{
+.header__subtitle ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .header__subtitle ul li {
   padding: 3px 0;
 }
-
-
-.header__subtitle ul li i{
+.header__subtitle ul li i {
   padding-right: 10px;
 }
-
 .header__actions {
   margin: 40px 0 0 0;
 }
-
 .header__actions button {
   background: #00bfad;
   border: none;
@@ -96,7 +88,6 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
 .header__actions button:hover {
   color: #f8f8f8;
   background: #08a899;
