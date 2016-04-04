@@ -678,7 +678,7 @@ section {
 .header-wrapper {
   position: relative;
   background: url(../images/header-bg.png) no-repeat;
-  background-size: 70% auto;
+  background-size: 60% auto;
   background-position: bottom right;
   overflow: visible;
 }
@@ -687,7 +687,7 @@ section {
   
 }
 .header-container {
-  padding: 100px 0 300px;
+  padding: 50px 0 120px;
 }
 .header__title {
   margin: 0 0 10px 0;
@@ -701,7 +701,7 @@ section {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25rem;
 }
-.header__subtitle ul{
+.header__subtitle ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -709,7 +709,7 @@ section {
 .header__subtitle ul li {
   padding: 3px 0;
 }
-.header__subtitle ul li i{
+.header__subtitle ul li i {
   padding-right: 10px;
 }
 .header__actions {
